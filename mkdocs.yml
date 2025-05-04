@@ -1,0 +1,31 @@
+site_name: Docs in Style
+site_url: https://<your-username>.github.io/docs-in-style
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+plugins:
+  - search
+  - glightbox
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+  - awesome-pages
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
