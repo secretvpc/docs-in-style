@@ -3,7 +3,11 @@ name: Deploy to GitHub Pages (gh-deploy branch)
 on:
   push:
     branches: [main]
-
+    paths:
+      - '.github/workflows/deploy.yml'
+      - 'docs/**'
+      - 'mkdocs.yml'
+      - 'requirements.txt'
 jobs:
   deploy:
     runs-on: ubuntu-latest
