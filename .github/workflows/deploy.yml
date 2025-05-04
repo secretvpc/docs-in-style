@@ -28,3 +28,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           publish_branch: gh-deploy
+          user_name: secretvpc[bot]
+          user_email: secretvpc@users.noreply.github.com
+
