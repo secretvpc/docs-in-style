@@ -1,6 +1,9 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
 # Docs in Style: A Minimal Documentation Framework with MkDocs and GitHub Pages
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Abstract
 
@@ -97,10 +100,7 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-```
-https://secretvpc.github.io/docs-in-style/
-
-```
+**Live site:** [https://secretvpc.github.io/docs-in-style](https://secretvpc.github.io/docs-in-style)
 
 ---
 
